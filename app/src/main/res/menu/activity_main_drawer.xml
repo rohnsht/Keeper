@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_content"
+            android:checked="true"
+            android:icon="@drawable/ic_vpn_key"
+            android:title="Credentials" />
+    </group>
+
+    <item android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/nav_passcode"
+                android:icon="@drawable/ic_security"
+                android:title="Change Passcode" />
+            <item
+                android:id="@+id/nav_signOut"
+                android:icon="@drawable/ic_input"
+                android:title="Sign out" />
+        </menu>
+    </item>
+
+</menu>
